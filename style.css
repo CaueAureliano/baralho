@@ -1,0 +1,56 @@
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.geral{
+    display: flex;
+    flex-direction: row;
+    padding-right: 18px;
+    padding-top: 5px;
+    height: 30rem;
+    position: relative;
+}
+.primeiro-container{
+    background-color: rgb(255, 72, 0);
+    padding: 0.5rem 0.5rem;
+    font-style: normal;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.segundo-container{
+
+    background-color:rgb(71, 111, 199);
+    padding: 0.5rem 0.5rem;
+    font-style: normal;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.terceiro-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between; 
+
+}
+
+.botao{
+    border-style: none;
+    border-radius: 0.3rem;
+    background-color: rgb(17, 190, 221);
+    font-size: medium;
+    position: relative;
+    padding: 0.5rem;
+}
+.image{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: scroll;
+    white-space: nowrap;
+}
